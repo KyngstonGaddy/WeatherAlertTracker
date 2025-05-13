@@ -1,0 +1,52 @@
+NAME: Weather Alert Tracker
+
+OVERVIEW
+- My final capstone project fetches real-time weather data from the OpenWeatherMap API.
+- It sorts through the severity of each weather alert using a max heap-based priority queue.
+- This project demonstrates API integration, performance benchmarking, and the use of custom data structures.
+
+
+INSTALLATION
+- Required Elements:
+    - C++14 compiler
+    - libcurl
+    - nlohmann/JSON
+brew install cmake curl nlohmann-json
+
+- Clone github repo and download the source files
+- Compile the project with this command:
+g++ -std=c++14 main.cpp WeatherAPI.cpp WeatherHeap.cpp WeatherPriority.cpp ConfigManager.cpp -lcurl -o WeatherApp
+./WeatherApp
+
+- TO GET YOUR API KEY:
+    - https://openweathermap.org --> login --> My Current API Keys --> generate --> DONE!
+    - copy and paste your API key into the config manager to get the current weather conditions
+
+
+PROJECT STRUCTURE
+├── src/
+│ ├── main.cpp # Main entry point for the program
+│ ├── WeatherAPI.cpp # Implementation of Weather API requests
+│ ├── WeatherAlerts.cpp # Handles weather alerts
+│ ├── WeatherPriority.cpp # Calculates weather priorities
+│ └── ConfigManager.cpp # Gets API key
+├── include/
+│ ├── WeatherAPI.h # Header file for WeatherAPI
+│ ├── WeatherAlerts.h # Header file for WeatherAlerts
+│ ├── WeatherPriority.h # Header file for WeatherPriority
+│ └── ConfigManager.h # Header file for ConfigManager
+├── CMakeLists.txt # CMake build configuration
+└── README.md # Project documentation
+
+
+FUTURE UPDATES
+- I plan on encrypting the API key for security purposes
+- Will make a more dynamic priority scale system
+
+CREDITS
+- Kyngston Gaddy -- created May 2025
+
+ACKNOWLEDGMENTS
+- OpenWeatherMap API
+- nlohmann/json library
+- libcurl

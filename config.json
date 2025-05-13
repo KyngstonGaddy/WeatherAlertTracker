@@ -1,0 +1,31 @@
+
+
+{
+  "openweathermap": {
+    "api_key": "6753320a46075bb63e25f47ade4f15f9",
+    "units": "metric"
+  },
+  "markets": [
+    {
+      "name": "Bull City",
+      "city": "Durham",
+      "country": "US",
+      "weather_sensitivity": "high"
+    },
+    {
+      "name": "Capital",
+      "city": "Raleigh",
+      "country": "US",
+      "weather_sensitivity": "medium"
+    }
+  ],
+  "alert_thresholds": {
+    "cancel_priority": 500,
+    "reschedule_priority": 300,
+    "warning_priority": 100
+  },
+  "logging": {
+    "level": "info",
+    "file_path": "./logs/weather_alerts.log"
+  }
+}

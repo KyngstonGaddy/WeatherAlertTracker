@@ -1,0 +1,5 @@
+/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/cmake-build-debug/CMakeFiles/weather_market_app.dir
+/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/cmake-build-debug/_deps/json-build/CMakeFiles/edit_cache.dir
+/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/cmake-build-debug/_deps/json-build/CMakeFiles/rebuild_cache.dir

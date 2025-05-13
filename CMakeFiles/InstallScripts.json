@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/cmake_install.cmake",
+		"/Users/25gaddy/Desktop/ADV CS III/Projects/Real-Time API Capstone Project/_deps/json-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
